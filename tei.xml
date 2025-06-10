@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Trankskription und Edition von De septem rivis Aegypti ('Bernhard, Ad novitios fratres')
+                </title>
+                <funder>
+                        Universität Freiburg, Universität Münster
+                </funder>       
+                <respStmt>
+                    <resp>Leitung</resp>
+                    <name>Carolin Giere</name>
+                    <name>Lukas Reddemann</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition> 
+                    <p>studentische Edition im Rahmen eines Projektseminars</p>
+                    <date>2025</date>
+                </edition>
+                <respStmt>  
+                    <resp>erstellt von</resp>
+                    <name>Joel Zschiedrich</name>
+                    <name>Simona Oberto</name>
+                    <name>Tim Daniel Sauker</name>
+                    <name>Vanessa Hillemeier</name>
+                    <name>Jason Nikolas</name>
+                    <name>Chieh-Ling Wang</name>
+                </respStmt> 
+            </editionStmt>      
+            <publicationStmt>
+                <!--Einzelausgabe in Sammelhandschrift, liegt in BS München-->
+            </publicationStmt>
+
+
+            <sourceDesc>
+
+                    <author>Bernard von Clairvaux</author>
+                    <title>De septem rivis Aegypti </title>
+                    <title type="sub">tractatus ...</title> 
+                    <pubPlace>Oberaltaich</pubPlace> 
+                    <distributor>Bayerische Staatsbibliothek München</distributor>
+                    <date>vor 1282</date>
+
+
+
+
+
+                <msDesc>
+                    <msIdentifier> 
+                        <settlement>Oberaltaich</settlement>
+                        <repository>Bayerische Staatsbibliothek München</repository>
+                            <altIdentifier>
+                                <idno>Clm 9517</idno>
+                            </altIdentifier>
+                        <physicalDesc><!--können später noch mal dran arbeiten:https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-physDesc.html -->
+                            <objectDesc>
+                                <p>34 x 24 cm</p>
+                                <p>244 Blätter</p>
+
+                            </objectDesc>
+                        </physicalDesc>
+                        <p><!--alles, was nicht passt--></p>
+                    </msIdentifier>
+
+                    <msContents>
+                        <msItem>
+                        <author xml:lang="de">Bernard von Clairvaux</author>
+                        <author xml:lang="la">Bernhardus</author>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>entstanden während des Projektseminars "Von der Handschrift zur Edition" der Universitäten Freiburg und Münster, SoSe2025</p>
+            </projectDesc>  
+            <samplingDesc>
+                <p>Der vollständige Abschnitt De septem rivis Aegypti auf den Folia 76r-79r</p>
+            </samplingDesc> 
+            <editiorialDesc>
+                <correction></correction> 
+                <normalization method="silent"> langes s zu s</normalization>
+                <hyphenation>beibehalten</hyphenation>
+                <punctuation></punctuation>
+            </editiorialDesc>
+        </encodingDesc>     
+        <profileDesc>
+            <langUsage>Latein</langUsage>
+            <textClass><catref>?</catref></textClass>
+            <p>Gothische Minuskel</p>
+            <creation> 
+                <date> vor 1282</date>
+                <rs type="monastery"> </rs>
+            </creation>
+            
+            <particDesc>
+            </particDesc>                                           
+        </profileDesc>  
+        <revisionDesc>
+            <note>Et-Zeichen durch et ersetzt</note>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="76r"/>
+                <fw>De Vii Rivis Egypti</fw>
+                <lb/>
+            <pb n="76v"/>
+        </body> 
+    </text>
+    <standOff>
+        <listPerson>
+            
+        </listPerson>
+    </standOff>
+</TEI>
