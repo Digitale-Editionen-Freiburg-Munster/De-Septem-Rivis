@@ -37,7 +37,7 @@
 
             <sourceDesc>
 
-                    <author>Bernard von Clairvaux</author>
+                    <author>Bernhard von Clairvaux</author>
                     <title>De septem rivis Aegypti </title>
                     <title type="sub">tractatus ...</title> 
                     <pubPlace>Oberaltaich</pubPlace> 
@@ -115,8 +115,29 @@
         </body> 
     </text>
     <standOff>
-        <listPerson>
-            
+        <listPerson type="biblical">
+            <person xml:id="lucifer">
+                <persName ref="https://d-nb.info/gnd/4123694-4">Lucifer</persName>
+            </person>
+            <person xml:id="adam">
+                <persName ref="https://d-nb.info/gnd/118646877">Adam</persName>
+            </person>
+            <person xml:id="maria">
+                <persName ref="">Maria</persName>
+                <note></note>
+            </person>
+            <person xml:id="martha">
+                <persName ref="">Martha</persName>
+                <note></note>
+            </person>
+        </listPerson>
+        <listPerson type="historical">
+            <person xml:id="bernhard">
+                <persName ref="https://d-nb.info/gnd/118509810">Bernhard von Clairvaux</persName>
+            </person>
+            <person xml:id="benedikt">
+                <persName ref=""></persName>
+            </person>
         </listPerson>
     </standOff>
 </TEI>
