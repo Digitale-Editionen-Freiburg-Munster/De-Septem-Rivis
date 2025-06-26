@@ -55,19 +55,34 @@
                             <altIdentifier>
                                 <idno>Clm 9517</idno>
                             </altIdentifier>
-                        <physicalDesc><!--können später noch mal dran arbeiten:https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-physDesc.html -->
+                        <physDesc><!--können später noch mal dran arbeiten:https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-physDesc.html -->
                             <objectDesc>
-                                <p>34 x 24 cm</p>
-                                <p>244 Blätter</p>
-
+                                <supportDesc>
+                                    <extent>244 Blätter der Sammelausgabe                   
+                                     <dimensions scope="all"type="Blatt"unit="cm">
+                                         <height>34</height>
+                                         <width>24</width>
+                                     </dimensions>
+                                    </extent>
+                                    <extent>4 Blätter oder 7 Seiten für den Text De Septem Rivis Egyptis: 76r-79r</extent>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1">einspaltig</layout>
+                                </layoutDesc>
                             </objectDesc>
-                        </physicalDesc>
+                            <handDesc>
+                                <p></p>
+                            </handDesc>
+                            <decoDesc>
+                                <p>Mit mehreren roten Initialen, teilweise verziert</p> <!--ich weiß nicht, wie das üblicherweise beschrieben wird-->
+                            </decoDesc>
+                        </physDesc>
                         <p><!--alles, was nicht passt--></p>
                     </msIdentifier>
 
                     <msContents>
                         <msItem>
-                        <author xml:lang="de">Bernard von Clairvaux</author>
+                        <author xml:lang="de">Bernhard von Clairvaux</author>
                         <author xml:lang="la">Bernhardus</author>
                         </msItem>
                     </msContents>
