@@ -1,126 +1,111 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xml:lang="http://www.w3.org/XML/1998/namespace">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>
-                    Trankskription und Edition von De septem rivis Aegypti ('Bernhard, Ad novitios fratres')
+                    De septem rivis Aegypti ('Bernhard, Ad novitios fratres'),aus: Theologische Sammelhandschrift – BSB Ms. Clm 9517 [Ob. Alt. 17]. Transkription und digitale Edition
                 </title>
-                <funder>
-                        Universität Freiburg, Universität Münster
-                </funder>       
-                <respStmt>
-                    <resp>Leitung</resp>
-                    <name>Carolin Giere</name>
-                    <name>Lukas Reddemann</name>
-                </respStmt>
+                <author>
+                    Bernhard von Clairvaux (1090–1153), Abt, Heiliger
+                </author>
+                <editor>
+                    Vanessa Hillemeier
+                    Jason Nikolaus
+                    Simona Oberto
+                    Tim Daniel Saukel
+                    Chieh-Ling Wang
+                    Joel Zschiedrich
+                </editor>
+                <sponsor>
+                    Lukas Reddemann
+                    Carolin Giere
+                    Universität Münster
+                    Albert-Ludwigs-Universität Freiburg i.Br.
+                </sponsor>
             </titleStmt>
             <editionStmt>
-                <edition> 
-                    <p>studentische Edition im Rahmen eines Projektseminars</p>
-                    <date>2025</date>
-                </edition>
-                <respStmt>  
-                    <resp>erstellt von</resp>
-                    <name>Joel Zschiedrich</name>
-                    <name>Simona Oberto</name>
-                    <name>Tim Daniel Sauker</name>
-                    <name>Vanessa Hillemeier</name>
-                    <name>Jason Nikolas</name>
-                    <name>Chieh-Ling Wang</name>
-                </respStmt> 
-            </editionStmt>      
+                Unikale Handschrift aus der Bayerischen Staatsbibliothek München, Signatur: Clm 9517 [Ob. Alt. 17], fol. 76r–79r, entstanden in Oberaltaich vor 1282, vollständig digitalisiert zu finden unter: https://www.digitale-sammlungen.de/en/view/bsb00150155?page=,1
+            </editionStmt>
+            <extent>
+                Handschrift aus Pergament, 244 Blätter, Buchmalereien 34 x 24.
+                Der Text von "De septem rivis Aegypti" befindet sich auf den fol. 76r–79r.
+            </extent>
             <publicationStmt>
-                <!--Einzelausgabe in Sammelhandschrift, liegt in BS München-->
+                Die Handschrift wurde im Sommersemester 2025 im Rahmen des DH-Projektseminars "Von der Handschrift zur Digitalen Edition" unter der Leitung von Lukas Reddemann an der Universität Münster sowie der Albert-Ludwigs-Universität Freiburg i.Br. von Studierenden und Mitarbeitenden zunächst ausgehend von der gotischen Minuskel, in welcher der Text verfasst ist, transkribiert und anschließend in das TEI-Format übertragen.
             </publicationStmt>
-
-
+            <notesStmt>
+                Sämtliche Abkürzungen der Hs. wurden aufgelöst und kenntlich gemacht, ebenso wie Ergänzungen durch die Editor*innen, unsichere Lesungen, Schreiberfehler, Tilgungen. Der Zeilen- und Folienumbruch wurde beibehalten. 
+            </notesStmt>
             <sourceDesc>
-
-                    <author>Bernard von Clairvaux</author>
-                    <title>De septem rivis Aegypti </title>
-                    <title type="sub">tractatus ...</title> 
-                    <pubPlace>Oberaltaich</pubPlace> 
-                    <distributor>Bayerische Staatsbibliothek München</distributor>
-                    <date>vor 1282</date>
-
-
-
-
-
                 <msDesc>
-                    <msIdentifier> 
+                    <msIdentifier>
                         <settlement>Oberaltaich</settlement>
-                        <repository>Bayerische Staatsbibliothek München</repository>
-                            <altIdentifier>
-                                <idno>Clm 9517</idno>
-                            </altIdentifier>
-                        <physDesc><!--können später noch mal dran arbeiten:https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-physDesc.html -->
-                            <objectDesc>
-                                <supportDesc>
-                                    <extent>244 Blätter der Sammelausgabe                   
-                                     <dimensions scope="all"type="Blatt"unit="cm">
-                                         <height>34</height>
-                                         <width>24</width>
-                                     </dimensions>
-                                    </extent>
-                                    <extent>4 Blätter oder 7 Seiten für den Text De Septem Rivis Egyptis: 76r-79r</extent>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout columns="1">einspaltig</layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc>
-                                <p></p>
-                            </handDesc>
-                            <decoDesc>
-                                <p>Mit mehreren roten Initialen, teilweise verziert</p> <!--ich weiß nicht, wie das üblicherweise beschrieben wird-->
-                            </decoDesc>
-                        </physDesc>
-                        <p><!--alles, was nicht passt--></p>
+                        <provenance>1v 'Abbas Poppo (1260-1282) tibi iubet hunc librum Petre scribi'; f. 1r, 244v 
+                            <lb>Jüngere Besitzeinträge 14./15. Jh.</lb>
+                            <lb>Oberaltaich, Benediktiner</lb>
+                        </provenance>
+                        <repository>Bayerische Staatsbibliothek München, München</repository>
+                        <idno>Ms. 9517 [Ob. Alt. 17]</idno>
                     </msIdentifier>
-
                     <msContents>
                         <msItem>
-                        <author xml:lang="de">Bernhard von Clairvaux</author>
-                        <author xml:lang="la">Bernhardus</author>
+                            <author>Bernhard von Clairvaux (1090–1153), Abt, Heiliger</author>
+                            <title>De septem rivis Aegypti ('Bernhard ad novitios fratres')</title>
+                            <content>Befindet sich in 'Theologischer Sammelhandschrift', die folgende Texte anderer Autoren enthält:
+
+                                <p>
+                                    <lb>2r-20r: Gottfried von Clairvaux, De colloquio Simonis cum Iesu ('B. Bernhardus de verbis Symonis ad Jesum')</lb>
+                                    <lb>21r-31r: Ps.-Bernhard von Clairvaux, Meditationes de humana conditione ('B. Bernardus de contemptu mundi')</lb>
+                                    <lb>32r-62v: Hugo von Fouilloy, De claustro animae, lib. 2-3,9 ('Hugo de S. Victore De claustralibus')</lb>
+                                    <lb>62v-76r: Hugo von S. Victor, De institutione novitiorum</lb>
+                                    <lb>76r-79r: De septem rivis Aegypti ('Bernhard, Ad novitios fratres')</lb>
+                                    <lb>80r-80v: Sermo-Anfang (wie 107r) ('ad fratres de monte dei)</lb>
+                                    <lb>81r-107r: Guido von Kastell (?), Epistola ad fratres de monte dei, lib. 1-2, mit Praefatio Misericors et miserator dominus de via plena miserie ('Bernhard')</lb>
+                                    <lb>107r-113r: Sermones (107 'Tractatus 'Ut inhabitet gloria in terra nostra misericordia et veritas obviaverunt sibi, iusticia et pax osculatae sunt', 111: Alius 'De virga Jesse devenimus ad virgam chrucis'')</lb>
+                                    <lb>114r-182r: Willelmi abbatis S. Theoderici vita S. Bernardi Clarevallensis</lb>
+                                    <lb>183r-234v: Vita Ottonis Babenbergensis episcopi confessoris ac Pommeramiae gentis apostoli</lb>
+                                    <lb>235r-240r Vita et miracula Heinrici imperatoris</lb>
+                                    <lb>240r-244v Vita et miracula Cunegundis imperatricis</lb>
+                                    <lb>244v Nachtrag: De s. Achacio</lb>
+                                </content>
+                            </p>
+                            <lb>
+                                <author>Hugo von Sankt Victor (1096-1141)</author>
+                            </lb>
+                            <lb>
+                                <author>Hugo von Fouilloy, Hugo Foliotensis (1100–1174)
+                            </lb>
+                            </author>
+                            <lb>
+                                <author>Gottfried Hautecombe, Abt (1115–1188)</author>
+                            </lb>
+                            <lb>Guido von Kastel (?)</lb>
+                            <lb>
+                                <author>Wilhelm Saint-Thierry, Abt (1075-1148)</author>
+                            </lb>
                         </msItem>
                     </msContents>
                 </msDesc>
-
+                <physDesc>
+                    <objectDesc>Handschrift aus Pergament, 244 folios.
+                        <p>Buchmalereien 34 x 24. 
+                            <lb>Ausstattung: Fleuronnéeinitialen (29r, 31v, 32r, 34v, 36v mehrfarbig grün, rot und gelb, teils braun; 39v, 58r, 60r 87r einfarbig rot; 3r, 80r, 91r, 95r, 97v, 100r, 100v, 101r, 103r, 104r, 109r, 110v, 111r rot-blau gespalten); 2r, 3r, 29r, 36v, 39v, 40r, 40v, 41v, 42v, 55v, 60r, 69v, 70v, 80v, 87v, 91v, 95v, 98r, 104v, 107v, 109v </lb>
+                            <lb>Federzeichnungsinitialen; 40v Figur mit Kranz im Haar und Blütenzweig und kleiner Scheibe in den erhobenen Händen als S-Initiale</lb>
+                            <lb>Nachträgliche Initialen 1v, 28v, 57r118r</lb>
+                        </p>
+                        <language>Latein</language>
+                        <typeDesc>Gotische Minuskel</typeDesc>
+                    </objectDesc>
+                </physDesc>
             </sourceDesc>
-
         </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>entstanden während des Projektseminars "Von der Handschrift zur Edition" der Universitäten Freiburg und Münster, SoSe2025</p>
-            </projectDesc>  
-            <samplingDesc>
-                <p>Der vollständige Abschnitt De septem rivis Aegypti auf den Folia 76r-79r</p>
-            </samplingDesc> 
-            <editiorialDesc>
-                <correction></correction> 
-                <normalization method="silent"> langes s zu s</normalization>
-                <hyphenation>beibehalten</hyphenation>
-                <punctuation></punctuation>
-            </editiorialDesc>
-        </encodingDesc>     
-        <profileDesc>
-            <langUsage>Latein</langUsage>
-            <textClass><catref>?</catref></textClass>
-            <p>Gothische Minuskel</p>
-            <creation> 
-                <date> vor 1282</date>
-                <rs type="monastery"> </rs>
-            </creation>
-            
-            <particDesc>
-            </particDesc>                                           
-        </profileDesc>  
-        <revisionDesc>
-            <note>Et-Zeichen durch et ersetzt</note>
-        </revisionDesc>
-    </teiHeader>
+    </teiHeader>     
+
     <text>
         <body>
             <pb n="76r"/>
