@@ -1,0 +1,48 @@
+teiHeader {
+    display: none;
+}
+abbr {
+    display: none;
+}
+add {
+    display: inline;
+    color: green;
+    background-color: inherit;
+    text-decoration: underline;
+}
+del {
+    display: inline;
+    color: red;
+    text-decoration: line-through;
+}
+lb {
+    display: block;
+}
+note {
+    display: inline;
+    color: gold;
+}
+p {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+}
+pb {
+    display: none;
+}
+pb:after {
+    content: attr(n);
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+sic {
+    display: inline;
+    color: purple;
+}
+supplied {
+    display: inline;
+    color: orange;
+}
