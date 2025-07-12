@@ -323,6 +323,7 @@
             <person xml:id="spiritus sanctus">
                 <persName xml:lang="la">spiritus sanctus</persName>
                 <persName xml:lang="de">Heiliger Geist</persName>
+                <note>Beim Heiligen Geist handelt es sich natürlich nicht um eine Person im klassischen Sinne.</note>
             </person>
             <person xml:id="apostolus">
                 <persName xml:lang="la">apostolus</persName>
